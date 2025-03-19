@@ -1,0 +1,121 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Eingabeformular */
+.grocery-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#submit-btn:hover {
+    background-color: #218838;
+}
+
+/* Einkaufsliste */
+.grocery-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.show-container {
+    display: block;
+}
+
+.grocery-list {
+    list-style: none;
+    padding: 0;
+}
+
+.grocery-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Buttons für Bearbeiten und Löschen */
+.btn-container {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+}
+
+/* Alert Meldungen */
+.alert {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alert-success {
+    color: green;
+}
+
+.alert-danger {
+    color: red;
+}
+
+/* Liste leeren Button */
+.clear-btn {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+.clear-btn:hover {
+    background-color: darkred;
+}

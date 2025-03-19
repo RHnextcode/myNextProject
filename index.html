@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufsliste</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Grocery-list</h1>
+        <p class="alert"></p>
+        
+        <!-- Formular -->
+        <form class="grocery-form">
+            <input type="text" id="grocery" placeholder="Artikel hinzufügen...">
+            <button type="submit" id="submit-btn">Hinzufügen</button>
+        </form>
+
+        <!-- Einkaufsliste Container -->
+        <div class="grocery-container">
+            <ul class="grocery-list"></ul>
+            <button class="clear-btn">Liste leeren</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
