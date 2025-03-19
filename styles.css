@@ -1,4 +1,4 @@
-/* Allgemeine Stile */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -16,7 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Eingabeformular */
+/* input-form */
 .grocery-form {
     display: flex;
     gap: 10px;
@@ -46,7 +46,7 @@ button {
     background-color: #218838;
 }
 
-/* Einkaufsliste */
+/* Grocery list */
 .grocery-container {
     display: none;
     margin-top: 10px;
@@ -71,7 +71,7 @@ button {
     border-radius: 5px;
 }
 
-/* Buttons für Bearbeiten und Löschen */
+/* Buttons für update and delete */
 .btn-container {
     display: flex;
     gap: 5px;
@@ -108,7 +108,7 @@ button {
     color: red;
 }
 
-/* Liste leeren Button */
+/* clear item Button */
 .clear-btn {
     margin-top: 10px;
     background-color: red;
